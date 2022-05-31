@@ -21,7 +21,7 @@ camera="raspi"
 #
 # Defaults to a resolution of 640x480 px and a framerate of 10 fps
 #
-camera_raspi_options=" -x 1920 -y 1080 -fps 15"
+camera_raspi_options=" -x 1920 -y 1080 -fps 30"
 
 ### Additional webcam devices known to cause problems with -f
 #
@@ -55,7 +55,7 @@ camera_raspi_options=" -x 1920 -y 1080 -fps 15"
 #
 # Defaults to 10fps
 #
-camera_raspi_options="-fps 15"
+# camera_raspi_options="-fps 15"
 
 ### Configuration of camera HTTP output
 #
